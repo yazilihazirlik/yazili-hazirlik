@@ -37,7 +37,6 @@ img{max-width:100%}
 }
 
 section{padding:90px 0}
-
 h1,h2,h3,p{margin-top:0}
 
 h1,h2,h3{
@@ -163,8 +162,6 @@ p{font-size:17px}
     #e4d5ff 100%
   );
 }
-
-/* İLK ADIMI ATIN İÇİN ÖZEL MOR GEÇİŞ */
 
 .highlight.purple-strong{
   color:#4f2489;
@@ -661,6 +658,19 @@ nav a:hover{color:var(--blue)}
   margin:0;
 }
 
+/* TANITIM BAŞLIĞI: TELEFONDA ÜÇ SATIR */
+
+.promo-title-line{
+  display:block;
+}
+
+@media(max-width:700px){
+  .promo-box h2{
+    font-size:clamp(25px,6.5vw,36px);
+    line-height:1.25;
+  }
+}
+
 /* EĞİTİM PROGRAMLARI */
 
 .programs-section{padding-top:60px}
@@ -792,8 +802,6 @@ nav a:hover{color:var(--blue)}
   max-width:700px;
   margin:0 auto 26px;
 }
-
-/* BİR SONRAKİ SINIFA / GEÇMEMELİ SATIRLARI */
 
 .final-highlight-line{
   display:block;
@@ -1026,9 +1034,6 @@ footer a{color:#a9ddff}
   <div class="container hero-grid">
 
     <div>
-      <div class="eyebrow reveal">
-        Anlayarak Hızlı Okuma Eğitimi
-      </div>
 
       <h1 class="reveal">
         <span>Hızlı okusun.</span>
@@ -1090,7 +1095,6 @@ footer a{color:#a9ddff}
   <div class="container">
 
     <div class="section-intro reveal">
-      <div class="eyebrow">Hedeflediğimiz kazanımlar</div>
 
       <h2>
         Öğrenci Bu Eğitimle
@@ -1203,8 +1207,6 @@ footer a{color:#a9ddff}
 
     </div>
 
-    <!-- YENİ: NORMAL BOYUTTA, RENKLİ KUTU İÇİNDE -->
-
     <div class="solution-box reveal">
       Anlayarak Hızlı Okuma Eğitimi,
       yaşadığı bu sorunları çözebilir.
@@ -1309,10 +1311,6 @@ footer a{color:#a9ddff}
   <div class="container">
 
     <div class="section-intro reveal">
-      <div class="eyebrow">
-        Adım adım planlı bir eğitim süreci
-      </div>
-
       <h2 class="gradient-heading">
         Nasıl İlerliyoruz?
       </h2>
@@ -1390,10 +1388,15 @@ footer a{color:#a9ddff}
     <div class="promo-box reveal">
 
       <h2>
-        <span class="gradient-text">
-          Hızlı Okuma Eğitimi ve 1 Yıllık SuperRead Üyeliği
+        <span class="promo-title-line gradient-text">
+          Hızlı Okuma Eğitimi ve
         </span>
-        Bir Arada
+        <span class="promo-title-line gradient-text">
+          1 Yıllık SuperRead Üyeliği
+        </span>
+        <span class="promo-title-line">
+          Bir Arada
+        </span>
       </h2>
 
       <p>
@@ -1419,10 +1422,6 @@ footer a{color:#a9ddff}
   <div class="container">
 
     <div class="section-intro reveal">
-
-      <div class="eyebrow">
-        Size uygun bir başlangıç
-      </div>
 
       <h2 class="gradient-heading">
         Eğitim Programlarımız
@@ -1467,7 +1466,6 @@ footer a{color:#a9ddff}
             Başlangıç ve sonuç okuma değerlendirmeleri,
             tanıtıcı teknikler,
             <strong>2 haftalık interaktif egzersiz erişimi,</strong>
-            <strong>PDF uygulama kitapçığı,</strong>
             WhatsApp ödev takibi ve veli geri bildirimi.
           </p>
 
@@ -1475,7 +1473,7 @@ footer a{color:#a9ddff}
             <strong>Hızlı Okuma Atölyesinde</strong>
             ilk gelişim adımlarını kazanıyor,
             <strong>Aralık Hızlı Okuma Grubunda</strong>
-            ise bu becerileri daha kapsamlı geliştiriyor.
+            ise bu becerileri kapsamlı şekilde geliştiriyoruz.
           </p>
 
           <p class="purple-detail">
@@ -1507,8 +1505,6 @@ footer a{color:#a9ddff}
 
           <h3>Aralık Hızlı Okuma Grubu</h3>
 
-          <!-- GÜNCEL FİYAT -->
-
           <div class="price">5.000 TL</div>
 
           <p class="details">
@@ -1535,14 +1531,6 @@ footer a{color:#a9ddff}
             <strong>PDF uygulama kitapçığı,</strong>
             değerlendirmeler,
             WhatsApp ödev takibi ve veli bilgilendirmeleri.
-          </p>
-
-          <!-- GÜNCEL ATÖLYE İNDİRİMİ -->
-
-          <p class="purple-detail">
-            Öncesinde atölyeye katılmışsanız ödediğiniz
-            1.500 TL, 5.000 TL üzerinden düşülür.
-            Kalan tutar 3.500 TL olur.
           </p>
 
         </div>
@@ -1616,7 +1604,7 @@ footer a{color:#a9ddff}
   </div>
 </section>
 
-<!-- SONUÇLAR: YENİ GÖRSEL VE GÜNCEL SIRA -->
+<!-- SONUÇLAR -->
 
 <section id="sonuclar" class="section-soft">
   <div class="container">
@@ -1635,8 +1623,6 @@ footer a{color:#a9ddff}
 
     <div class="results">
 
-      <!-- 1. ATÖLYE SONUÇLARI -->
-
       <div class="result-card reveal">
         <img
           src="copy_57B79F44-DDEC-4CC7-A57A-3F453B5ED086.JPEG"
@@ -1644,8 +1630,6 @@ footer a{color:#a9ddff}
           loading="lazy"
         >
       </div>
-
-      <!-- 2. YENİ GÖRSEL -->
 
       <div class="result-card reveal">
         <img
@@ -1655,8 +1639,6 @@ footer a{color:#a9ddff}
         >
       </div>
 
-      <!-- 3. ESKİ DÖRDÜNCÜ GÖRSEL -->
-
       <div class="result-card reveal">
         <img
           src="panel-3.jpg"
@@ -1664,8 +1646,6 @@ footer a{color:#a9ddff}
           loading="lazy"
         >
       </div>
-
-      <!-- 4. ESKİ ÜÇÜNCÜ GÖRSEL -->
 
       <div class="result-card reveal">
         <img
@@ -1675,8 +1655,6 @@ footer a{color:#a9ddff}
         >
       </div>
 
-      <!-- 5. ESKİ İKİNCİ GÖRSEL -->
-
       <div class="result-card reveal">
         <img
           src="panel-1.jpg"
@@ -1684,8 +1662,6 @@ footer a{color:#a9ddff}
           loading="lazy"
         >
       </div>
-
-      <!-- 6. ESKİ BEŞİNCİ GÖRSEL -->
 
       <div class="result-card reveal">
         <img
@@ -1704,8 +1680,6 @@ footer a{color:#a9ddff}
 
 <section class="final">
   <div class="container">
-
-    <!-- İSTENEN SATIR DÜZENİ -->
 
     <h2 class="reveal">
       Hiçbir öğrenci okuduğunu anlamadan,
